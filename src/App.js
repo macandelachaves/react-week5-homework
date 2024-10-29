@@ -1,11 +1,11 @@
 import "./App.css";
 import Weather from "./Weather.js";
 
-export default function App() {
+export default function App(props) {
   return (
     <div className="App">
       <div className="Container">
-        <Weather />
+        <Weather defaultCity="London" />
         <footer>
           This project was coded with ♥️ by Candela and is open-sourced on{" "}
           <a
