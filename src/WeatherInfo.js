@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6">
           {" "}
-          <div className="clearfix">
+          <div className="clearfix d-flex">
             <span className="icon">
               <WeatherIcon code={props.data.iconUrl} />
             </span>
