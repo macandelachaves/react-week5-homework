@@ -63,17 +63,21 @@
     max-width: 350px;
   }
 
-  .Weather form {
+.Weather form {
     display: flex;
-    flex-wrap: wrap;
-    gap: 2px;
-    align-items: stretch;
+    flex-direction: column;  /* Cambiar a columna para que los elementos estén uno debajo del otro */
+    gap: 10px;  /* Espacio entre el input y el botón */
+    width: 100%;  /* Asegura que el formulario ocupe el ancho completo disponible */
+    padding: 0 10px;  /* Asegura que no haya margen extra en los bordes */
   }
 
   .Weather form input,
   .Weather form button {
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
+    width: 100%;  /* El input y el botón ocuparán el 100% del ancho */
+    box-sizing: border-box;  /* Asegura que el padding y border estén incluidos dentro del tamaño del ancho */
+  }
+
+
+
   }
 }
