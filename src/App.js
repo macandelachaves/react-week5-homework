@@ -5,7 +5,7 @@ export default function App(props) {
   return (
     <div className="App">
       <div className="Container">
-        <Weather defaultCity="London" />
+        <Weather defaultCity="Lisbon" />
         <footer>
           This project was coded with ♥️ by Candela and is open-sourced on{" "}
           <a
