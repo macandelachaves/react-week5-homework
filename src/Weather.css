@@ -57,3 +57,9 @@
   background-color: #5585b5;
   border-color: #5585b5;
 }
+
+@media (max-width: 900px) {
+  .Weather {
+    max-width: 350px;
+  }
+}
