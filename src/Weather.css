@@ -63,7 +63,16 @@
     max-width: 350px;
   }
 
-  .Weather form input {
-    max-width: 200px;
+  .Weather form {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .Weather form input,
+  .Weather form button {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
