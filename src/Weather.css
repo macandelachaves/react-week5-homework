@@ -63,7 +63,7 @@
     max-width: 350px;
   }
 
-  .Weather form {
-    max-widht: 100px;
+  .Weather form input {
+    max-width: 100px;
   }
 }
