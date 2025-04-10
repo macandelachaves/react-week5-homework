@@ -65,14 +65,14 @@
 
   .Weather form {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: stretch;
   }
 
   .Weather form input,
   .Weather form button {
     max-width: 100%;
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
   }
 }
