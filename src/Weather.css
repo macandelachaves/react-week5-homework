@@ -7,13 +7,13 @@
     rgba(233, 226, 226, 0.28) 90.1%
   );
 
+  max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid #fcf4d9;
   border-radius: 10px;
   border-width: 0.1px;
   padding: 20px;
   margin-top: 30px;
-  max-width: 100%;
 }
 
 .Weather h1 {
@@ -57,5 +57,16 @@
 .Weather .mainButton {
   background-color: #5585b5;
   border-color: #5585b5;
-  width: 100%;
+  width: 100%; /* El botón ocupa todo el ancho disponible */
+}
+
+@media (max-width: 900px) {
+  .Weather .col-10 {
+    flex: 0 0 60%;
+    /* El campo de búsqueda sigue ocupando el 70% en pantallas pequeñas */
+  }
+
+  .Weather .col-2 {
+    flex: 0 0 40%; /* El botón sigue ocupando el 30% en pantallas pequeñas */
+  }
 }
