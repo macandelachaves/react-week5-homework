@@ -13,6 +13,7 @@
   border-width: 0.1px;
   padding: 20px;
   margin-top: 30px;
+  max-width: 100%;
 }
 
 .Weather h1 {
@@ -56,25 +57,5 @@
 .Weather .mainButton {
   background-color: #5585b5;
   border-color: #5585b5;
-}
-
-@media (max-width: 900px) {
-  .Weather {
-    max-width: 350px;
-  }
-
-  .Weather form {
-    display: flex;
-    flex-direction: wrap; /* Cambiar a columna para que los elementos estén uno debajo del otro */
-    gap: 2px; /* Espacio entre el input y el botón */
-    width: 100px;
-    max-width: 300px; /* Asegura que el formulario ocupe el ancho completo disponible */
-    padding: 0 10px; /* Asegura que no haya margen extra en los bordes */
-  }
-
-  .Weather form input .form-control,
-  .Weather form input .mainButton {
-    width: 100%; /* El input y el botón ocuparán el 100% del ancho */
-    box-sizing: border-box; /* Asegura que el padding y border estén incluidos dentro del tamaño del ancho */
-  }
+  width: 100%;
 }
