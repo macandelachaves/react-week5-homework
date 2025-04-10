@@ -66,7 +66,7 @@
   .Weather form {
     display: flex;
     flex-direction: column; /* Cambiar a columna para que los elementos estén uno debajo del otro */
-    gap: 10px; /* Espacio entre el input y el botón */
+    gap: 2px; /* Espacio entre el input y el botón */
     max-width: 100px; /* Asegura que el formulario ocupe el ancho completo disponible */
     padding: 0 10px; /* Asegura que no haya margen extra en los bordes */
   }
