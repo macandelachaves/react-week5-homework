@@ -9,3 +9,9 @@ footer {
   text-align: center;
   color: #5e5e5e;
 }
+
+@media (max-width: 900px) {
+  .Container {
+    max-width: 350px;
+  }
+}
